@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  background-image: url(gameBackground.jpeg);
+  background-size: cover;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Garamond, Georgia, serif;
+  height: 100%;
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  padding: 75px;
+  text-align: center;
+}
+
+.error {
+  font-weight: bolder;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  background-color: #fff59b; /* Set your desired background color */
+  border-radius: 50%;
+  border-color: aliceblue;
+}
+
+#guessBtn {
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  padding-right: 3.5em;
+  box-shadow: inset -4px -8px 3px 2px #fbf8dd, inset 1px 1px 1px 1px #fbf8dd;
+}
+
+#guessBtn:hover {
+  box-shadow: none;
+}
+
+#guessClear {
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  padding-right: 3.5em;
+  box-shadow: inset -4px -8px 3px 2px #fbf8dd, inset 1px 1px 1px 1px #fbf8dd;
+}
+
+#guessClear:hover {
+  box-shadow: none;
+}
